@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'FugazOne-Regular';
+	src: url('/fonts/FugazOne-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'ArchivoBlack-Regular';
+	src: url('/fonts/ArchivoBlack-Regular.ttf') format('truetype');
+}
+
+html, body {
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	margin: 0;
+	font-family: 'ArchivoBlack-Regular';
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+.text {
+	font-style: italic;
+	color: #432324;
+	font-size: 70px;
+	text-align: center;
+}
